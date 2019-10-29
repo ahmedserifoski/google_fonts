@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px 10%;
+    font-family: roboto;
+}
+
+#header-h4 {
+    display: inline;
+    color: gray;
+}
+
+#header-nav {
+    display: inline;
+}
+
+#header-nav a{
+    
+    text-decoration: none;
+    float: right;
+    font-size: 2;
+    
+}
+
+#header-nav a:visited {
+    color: gray;
+}
+
+hr {
+    margin-right: -30px;
+    margin-left: -30px;
+    
+}
+
+#main-nav {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 3px 10px;
+}
+
+#size select {
+    position: relative;
+    background-color: gray;
+}
+
+#search, #example, #size {
+    cursor: pointer;
+    outline: none;
+    width: 15%;
+    border-width: 0px;
+}
+
+}
+
+span {
+    color: gray;
+}
+
+#dark {
+    margin-left: 10%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+    outline: none;
+}
+
+#light {
+    margin: 0 10% 0 0;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    outline: none;
+}
+#list, #grid {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+#list {
+    margin-left: 10%;
+}
+
+#grid {
+    
+}
+
+#reset {
+    float: right;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+
+.card {
+    border-top: 1px solid black;
+    padding: 5px;
+    margin-top: 20px;
+    height: auto;
+    min-height: 170px;
+    
+    position: relative;
+    word-wrap: break-word;
+}
+
+.footer {
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h5, h6{
+    display: inline;
+}
+
+.butt {
+    position: absolute;
+    right: 10px;
+}
+
+.add {
+    position: absolute;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#card1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#card2 {
+    font-family: 'Jomolhari', serif;
+}
+
+#card3 {
+    font-family: 'Open Sans';
+}
+
+#card4 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#card5 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#card6 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#card7 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#card8 {
+    font-family: 'Turret Road', cursive;
+}
+
+.display {
+    font-size: 1.5em;
+    max-width: 100%;
+    outline: none;
+    border: none;
+}
+
+#display1 {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+#display2 {
+    font-family: 'Jomolhari', serif;
+    position: relative;
+    width: 100%;
+}
+
+#display3 {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+#display4 {
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+#display5 {
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    width: 100%;
+
+}
+
+#display6 {
+    font-family: 'Shadows Into Light', cursive;
+    position: relative;
+    width: 100%;
+} 
+
+#display7 {
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    width: 100%;
+}
+
+#display8 {
+    font-family: 'Turret Road', cursive;
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+@media all and (max-width: 750px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    #size, #dark, #light, #list, #grid {
+        display: none;
+    }
+    #search, #example {
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 750px) {
+    
+}

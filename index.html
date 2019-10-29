@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fav Fonts</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Jomolhari|Nanum+Gothic|Open+Sans|Permanent+Marker|Roboto|Shadows+Into+Light|Turret+Road&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div>
+    	<header>
+            <h4 id="header-h4">Fav Fonts</h4>
+            <nav id="header-nav">
+                <a href="#"> CATALOG </a>
+                <a href="#"> FEATURED | </a>
+                <a href="#"> ARTICLES | </a>
+                <a href="#"> ABOUT | </a>
+            </nav>
+            <hr>
+        </header>
+    </div>
+    <form action="">
+    <div>
+        <nav id="main-nav">
+            <input id="search" type="search" placeholder="Search Fonts">
+            <input id="example" class="example" type="search" placeholder="| Try in out" onkeyup="tryItOut()">
+
+            <span>|</span>
+
+            <select id="size" class="sizes" onchange="textSize(this);">
+                <option value="20px">20</option>
+                <option value="24px">24</option>
+                <option value="32px">32</option>
+                <option value="40px">40</option>
+            </select>
+
+            <button class="button" name="dark" id="dark">b</button>
+            <button class="button" name="light" id="light"> s</button>
+            
+            <img id="list" src="list-image.png" alt="List">
+            <img id="grid" src="grid-image.svg" alt="Grid">
+            
+            <img id="reset" class="reset" src="reset-image.webp" alt="Reset" onclick="window.location.reload()">
+        </nav>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <div class="card" id="card3">
+                <h5>Open Sans<img class="add" src="add-image.png"></h5>
+                <br>
+                <h6>Steve Matteson</h6>
+                <br>
+                <p id="display3" class="display default resset boxText"></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card" id="card4">
+                <h5>Nanum Gothic<img class="add" src="add-image.png"></h5>
+                <br>
+                <h6>Sandoll</h6>
+                <br>
+                <p id="display4" class="display default resset boxText">I cannot think of souch a deep thaught for an example text</p>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="column">
+                <div class="card" id="card1">
+                    <h5>Roboto<img class="add" src="add-image.png"></h5>
+                    <br>
+                    <h6>Christian Robertson</h6>
+                    <br>
+                    <p id="display1" class="display default resset boxText">I cannot think of souch a deep thaught for an example text</p>
+                </div>
+            </div> 
+        </div>
+        <div class="row">
+                <div class="column">
+                    <div class="card" id="card2">
+                        <h5>Jomolhari<img class="add" src="add-image.png"></h5>
+                        <br>
+                        <h6>Christopher J. Finn</h6>
+                        
+                        <p id="display2" class="display default resset boxText">I cannot think of souch a deep thaught for an example text</p>
+                    </div>
+                </div>
+            </div>
+            
+                
+
+
+                    <div class="row">
+                            <div class="column">
+                                <div class="card" id="card5">
+                                    <h5>Dancing Script<img class="add" src="add-image.png"></h5>
+                                    <br>
+                                    <h6>Impallari Type</h6>
+                                    <br>
+                                    <p id="display5" class="display default resset boxText">I cannot think of souch a deep thaught for an example text</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="column">
+                                <div class="card" id="card6">
+                                    <h5>Shadows Into Light<img class="add" src="add-image.png"></h5>
+                                    <br>
+                                    <h6>Kimberly Geswein</h6>
+                                    <br>
+                                    <p id="display6" class="display default resset boxText">I cannot think of souch a deep thaught for an example text</p>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="row">
+                            <div class="column">
+                                <div class="card" id="card7">
+                                    <h5>Permanent Marker<img class="add" src="add-image.png"></h5>
+                                    <br>
+                                    <h6>Font Diner</h6>
+                                    <br>
+                                    <p id="display7" class="display default resset boxText">I cannot think of souch a deep thaught for an example text</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="column">
+                                    <div class="card" id="card8">
+                                        <h5>Turret Road<img class="add" src="add-image.png"></h5>
+                                        <br>
+                                        <h6>Dale Sattler</h6>
+                                        <br>
+                                        <p id="display8" class="display default resset boxText">I cannot think of souch a deep thaught for an example text</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        
+                
+    <script src="script.js"></script>
+    <div class="footer">
+        <p>Created By: rabbiTurtle | Voyage 13 | Chingu Pre-Work Project</p>
+    </div>
+</body>
+</html>
